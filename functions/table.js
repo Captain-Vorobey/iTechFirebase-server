@@ -1,7 +1,7 @@
 const table = require(`express`).Router();
 const admin = require("firebase-admin");
 
-const serviceAccount = require("./itechart-firebase-adminsdk-viq3k-7bde1adba8.json");
+const serviceAccount = require("./itechart-firebase-adminsdk-viq3k-f80c7a1825.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
