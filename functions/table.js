@@ -21,14 +21,3 @@ table.get('/:id', async (req, res) => {
 });
 
 module.exports = table;
-
-/*table.get('/:id', async (req, res) => {
-    const id = req.params.id;
-    let json = "ddd";
-    const docRef = firestore.doc(`/tables/${id}`);
-    await docRef.get()
-    .then((res => json = res.data()));
-    res.json(json);
-});
-
-module.exports = table;*/
